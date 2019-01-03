@@ -1,0 +1,207 @@
+<style>
+	body { color: white;}S
+
+	a { color: white;}
+
+    .searching {
+      float:right;
+      background-color: white;
+      font-family: Helvetica, FontAwesome;
+	  border-radius: 50px 20px;
+    }
+
+	.navbar a {
+		display: block;
+		color: #ffff;
+		text-align: center;
+		text-decoration: none;
+		font-size: 22px;
+		font : bold;
+
+	}
+	/* Style the links inside the navigation bar */
+	.topnav a {
+		display: block;
+		color: #ffff;
+		text-align: center;
+		text-decoration: none;
+		font-size: 20px;
+		font : bold;
+	}
+
+	/* Change the color of links on hover */
+	.topnav a:hover {
+		background-color: #ffc760;
+		color: black;
+		font : bold;
+	}
+
+
+	/* Add an active class to highlight the current page */
+	.active {
+		background-color: #4CAF50;
+		color: white;
+	}
+
+    .nav-item {
+      margin-right: 70px;
+	  margin-left : 50px;
+    }
+
+
+    .page-footer {
+		position:;
+		bottom:0;
+		width:100%;
+		background-image : url("footer.jpg");
+		background-position : center;
+    }
+
+	.container {
+	position: relative;
+	background-color: #ffff;
+	max-width: 800px;;
+}
+
+	.container img {
+		vertical-align: middle;
+	}
+
+	.row .col-md {
+		background-color: #ffff;
+		position: center;
+		width: fluid;
+		margin-left: 30px;
+
+	}
+
+	.jumbotron-fluid .content {
+	position: absolute;
+	bottom: 270px;
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1;
+	width: 100%;
+	height: 35%;
+	padding: 20px;
+	text-align: center;
+
+	}
+
+	.jumbotron-fluid .icon {
+		background-color: #ff9800;
+		padding-top: 18px;
+		padding-bottom: 18px;
+	}
+
+
+	.btn .blue{
+		background-color: #007bff;
+		color: #000;
+		width: 50%;
+		rounded : 10px;
+
+	}
+
+	.How {
+		position: absolute;
+		width: 100%;
+	}
+
+	.row{
+		width: 100%;
+	}
+
+	.card{
+		width: 80%;
+		height: 80%;
+		margin-left: 60px;
+	}
+
+	.files input {
+    outline: 2px dashed #e47421;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 200px 200px 150px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+
+	.files input:focus{
+		outline: 2px dashed #92b0b3;
+		outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out,
+		background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, backgroun	d-color .15s linear;
+		border:1px solid #92b0b3;
+		width: 100%;
+ 	}
+
+	.files{ position:relative}
+	.files:after {  pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	}
+
+	.color input{ background-color:#307798;}
+	.files:before {
+    position: absolute;
+    bottom: 10px;
+    left: 0;  pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 200px;
+    content: "drag file here.";
+	text:"or";
+    display: block;
+    margin: 0 auto;
+    color: #2ea591;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+	}
+
+	.card-img-top {
+		width: 100%;
+		height: 20vw;
+		object-fit: cover;
+	}
+
+	.dropdown-menu {
+		hover : #007bff;
+		width: 14%;
+	}
+
+
+	.dropdown-menu button:hover {
+		background-color: #007bff;
+		color: white;
+		font : bold;
+
+	}
+
+	.dropdown-toggle {
+		background-color: #fd7e14;
+		color: black;
+	}
+
+	.navbar .btn-group {
+		margin-right: 25px;
+	}
+
+	.dropdown-menu .logres {
+		width: 50%;
+	}
+
+</style>
